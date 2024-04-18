@@ -1,0 +1,38 @@
+TEST CASE GHEKIN
+----------------------------
+https://docs.google.com/spreadsheets/d/1p9mnyE5_ZVmmbjIf9l9tCqlA-HNuKODV/edit?usp=sharing&ouid=117668787568227156846&rtpof=true&sd=true
+
+A. CHANGE USERNAME AND PASS
+-------------------------
+user name: admintester
+pass: admin123
+
+B. NODE VER
+---------------------
+ node --version : v20.12.2
+C. CYPRESS VERSION
+-------------------
+cypress": "^13.7.3"
+
+D. ETC
+--------------------------
+"name": "simplidots",
+  "version": "1.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "simplidots",
+      "version": "1.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "cypress": "^13.7.3"
+
+
+E. ACTUAL RESULT
+----------------------------------------------
+1. for "mark as favorite" on a movie, it can't be seen in the user's profile (maybe it was swapped or wrote the wrong question, what can be seen in the profile is only "lists"
+2. for the "add your watch" feature when you click on the movie, it can't be seen in the user profile either.
+3. cypress will error if you change the language on the TMDB web from Indonesian to English because the codinga on the inspec element is different.
+4. when changing the language from english to indoensia, it cannot display the list of countries in the cypress web run, even though it has changed the desktop screen.
+

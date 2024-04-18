@@ -1,0 +1,15 @@
+{
+  "name": "simplidots",
+  "version": "1.0.0",
+  "description": "simplidots",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "author": "muhammad yogi mustofa",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.7.3"
+  },
+  "devDependencies": {}
+}
